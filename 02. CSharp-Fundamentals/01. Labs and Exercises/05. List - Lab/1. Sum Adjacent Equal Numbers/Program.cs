@@ -1,10 +1,10 @@
 ﻿//3 3 6 1 -> 6 6 1 -> 12 1
 
-List<int> numbers = Console.ReadLine().Split().Select(int.Parse).ToList();
+List<double> numbers = Console.ReadLine().Split().Select(double.Parse).ToList();
 
 for (int i = 0; i < numbers.Count - 1; i++)
 {
-    int num = 0;
+    double num = 0;
 
     if (numbers[i] == numbers[i + 1])
     {
